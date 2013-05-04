@@ -1,0 +1,79 @@
+# Copyright (C) 2010 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/starbars\n"
+"POT-Creation-Date: 2013-04-29 19:19:58+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: section.php:35
+msgid "StarBar Configuration"
+msgstr ""
+
+#: section.php:44 section.php:216
+msgid "Number of StarBars to Configure"
+msgstr ""
+
+#: section.php:50 section.php:221
+msgid "Starbar Total Count (Number)"
+msgstr ""
+
+#: section.php:51
+msgid ""
+"This number will be used to calculate the percent of the bar filled. The "
+"StarBar values will be shown as a percentage of this value. Default is 100."
+msgstr ""
+
+#: section.php:58 section.php:226
+msgid "Starbar Modifier (Text Added to Stats)"
+msgstr ""
+
+#: section.php:59
+msgid "This will be added to the stat number."
+msgstr ""
+
+#: section.php:69 section.php:235
+msgid "Starbar Format"
+msgstr ""
+
+#: section.php:75 section.php:240
+msgid "StarBar Title (Optional)"
+msgstr ""
+
+#: section.php:88
+msgid "Descriptor"
+msgstr ""
+
+#: section.php:92
+msgid "Value"
+msgstr ""
+
+#: section.php:94
+msgid "Shown as a percentage of the StarBar total in the config."
+msgstr ""
+
+#: section.php:100
+msgid "<i class=\"icon-star\"></i> StarBar #"
+msgstr ""
+
+#: section.php:257
+msgid "Starbar #%s Description"
+msgstr ""
+
+#: section.php:261
+msgid "Starbar #%s Value"
+msgstr ""
+
+#: section.php:267
+msgid "StarBar Values"
+msgstr ""
+
+#: section.php:274
+msgid "Starbar"
+msgstr ""

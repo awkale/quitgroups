@@ -1,0 +1,7 @@
+== Description ==
+Awesome animated stat bars that animate as the user scrolls. Use them to show stats or other information.
+
+== Changelog ==
+
+= 1.0 =
+* Release.

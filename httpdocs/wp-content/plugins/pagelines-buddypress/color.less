@@ -1,0 +1,47 @@
+
+@buddypress-dark = darken( @pl-base, @invert-dark  );
+@buddypress-light = lighten( @pl-base, @invert-light  );
+
+
+.buddypress-page #page .item-list-tabs, div.item-list-tabs#subnav ul li.selected a, div.item-list-tabs#subnav ul li.current, .buddypress-page .padder input[type="text"], .buddypress-page .padder input[type="password"], .buddypress-page .padder textarea, .buddypress-page .padder textarea, .padder form#whats-new-form textarea{
+	background-color: @buddypress-dark;
+	color: @pl-text;
+}
+	.buddypress-page .padder  input[type="text"], .buddypress-page .padder input[type="password"], .buddypress-page .padder textarea, .buddypress-page .padder textarea:focus, form#whats-new-form textarea{
+		border: 1px solid darken(@buddypress-dark, @invert-dark*2);
+	}
+	.buddypress-page #page .item-list-tabs#subnav, div.item-list-tabs ul li.selected a, div.item-list-tabs ul li.current{
+		background-color: darken(@buddypress-dark, @invert-dark*1.2);
+		color: @pl-text;
+	}
+		
+	div.activity-comments form.ac-form{
+		background: lighten(@buddypress-dark, 2);
+		
+	}	
+		
+	.buddypress-page #page .item-list-tabs a{
+		color: @pl-text;
+	}
+
+	.activity-comments textarea{
+		border: 1px solid darken(@buddypress-dark, @invert-dark*2);
+		background:@buddypress-light;
+	}
+
+	ul.item-list li{
+		border-color: @buddypress-dark;
+	}
+#item-header-avatar img, #whats-new-avatar img, .activity-avatar img, .message-metadata img.avatar{
+	background: @buddypress-light; 
+	border: 1px solid lighten(@buddypress-light, 4); 
+	box-shadow: 0 1px 2px rgba(0,0,0, .4);
+}
+
+div.item-list-tabs ul li.selected a span, div.item-list-tabs ul li.current a span, div.item-list-tabs ul li a:hover span{
+	background: darken(@buddypress-dark, 5);
+}
+
+div.item-list-tabs ul li a span {
+	background: darken(@buddypress-dark, 10);
+}

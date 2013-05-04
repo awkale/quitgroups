@@ -1,0 +1,190 @@
+/*
+   BuddyPress for PageLines CSS
+   
+   Created by PageLines on 2012-01-27
+   Copyright 2012 PageLines. All rights reserved.
+*/
+
+/*
+   buddypress.css
+   PageLines Framework
+   
+   Created by PageLines on 2011-07-11.
+   Copyright 2011 PageLines Inc. All rights reserved.
+*/
+
+/* Layout BuddyPress */ 
+.buddypress-page #content{
+	margin: 0 auto;
+}
+	.buddypress-page #content .padder{
+		padding: 25px;
+		min-height: 500px;
+	}
+	
+	.buddypress-page .profile{
+		padding: 30px;
+	}
+	 .buddypress-page .standard-form{
+		padding: 0 30px;
+	}
+	
+	.buddypress-page .padder h3{
+		margin-bottom: 15px;
+	}
+
+/* BuddyPress Admin Bar (sucks) */
+#wp-admin-bar {
+	background:rgba(0,0,0, .7);
+}
+	#wp-admin-bar li a:hover, #wp-admin-bar ul li ul a:hover{
+		background:rgba(0,0,0, 1);
+	}
+	#wp-admin-bar .padder {
+		background: none;
+	}
+
+/* Overrides */ 
+.buddypress-page #page .item-list-tabs {
+	background:none;
+	margin: 0;
+	border:none;
+	min-height: 0;
+	font-family: 'lucida grande', arial, helvetica;
+	font-size: .85em;
+}
+	.buddypress-page .padder div.pagination, .buddypress-page table#message-threads, div.messages-options-nav{
+		margin: 0;
+	}
+	div.item-list-tabs ul li.selected a, div.item-list-tabs ul li.current a, div#item-header h2 a, span.user-nicename, form#whats-new-form h5,.activity-list .activity-content .activity-header, .activity-list .activity-content .comment-header, a.activity-time-since, a.activity-time-since:hover, div#item-header div#item-meta, .activity-list .activity-content .activity-header, .activity-list .activity-content .comment-header  {
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+		font-weight: normal;
+		color: inherit;
+		font-size: inherit;
+		line-height: inherit;
+	}
+	#item-body form#whats-new-form {
+		border-bottom: none;
+	}
+	
+	#item-body h3{
+		margin: 1em 0;
+	}
+	
+/* Navigation */ 
+
+#item-nav .item-list-tabs{padding-top: 5px}
+.buddypress-page #page .item-list-tabs#subnav{
+	padding: 7px;
+}
+
+/* Avatar */ 
+div#item-header img.avatar{margin-right: 25px}
+#item-header-avatar img{
+	padding: 5px;
+}
+#whats-new-avatar img, .activity-avatar img,  .message-metadata img.avatar{padding: 2px}
+	.item-avatar {float: left; margin-right: 10px;}
+	.item-avatar a{padding: 3px; display: block;}
+	.item-avatar a img{display: block;}
+
+
+/* BP Buttons */ 
+span.activity, div#message p{
+	box-shadow: 0 1px 2px rgba(0,0,0, .4);
+	color: #000;
+	border: 1px solid #f0ead6;
+}
+div#message p {
+	margin: 1.5em 0;
+}
+.buddypress-page button, .buddypress-page .button,.buddypress-page  a.button:focus, .buddypress-page input[type="submit"], .buddypress-page input[type="button"], .buddypress-page input[type="reset"], .buddypress-page ul.button-nav li a, .buddypress-page ul.button-nav li.current a, .buddypress-page div.generic-button a, .buddypress-page .comment-reply-link {
+	box-shadow: 0 1px 2px rgba(0,0,0, .4);
+	border: 1px solid #fff;
+}
+	.buddypress-page input[type="submit"]:hover, .buddypress-page .submit:hover, .buddypress-page input[type="button"]:hover, .buddypress-page .button:hover, .buddypress-page input[type="reset"]:hover, .buddypress-page .reset:hover {
+		box-shadow: 0 1px 2px rgba(0,0,0, .55);
+		border: 1px solid #fff;
+	}
+	
+	.buddypress-page .submit, .buddypress-page .submit:hover {
+		background: none;
+		border: none;
+		box-shadow: none;
+		cursor: default;
+	}
+	
+/* Inputs */ 
+.buddypress-page input[type="text"], .buddypress-page input[type="password"], .buddypress-page textarea{
+	box-shadow: inset 1px 1px 2px rgba(255,255,255, .3);
+}
+
+div.activity-comments form .ac-textarea{
+	border: none;
+	background: transparent;
+	padding: 0;
+	
+}
+	div.activity-comments form.ac-form{
+		border: none;
+	}
+
+/* Tables */ 
+
+table.notification-settings, .buddypress-page .messages-notices{
+	border-collapse: collapse;
+}
+	table.notification-settings td,table.notification-settings th, .buddypress-page .messages-notices td, .buddypress-page .messages-notices th{
+		padding: 5px 10px;
+		font-weight: normal;
+	}
+
+/* Designers Note: #content and #container are reserved for use by BuddyPress */
+
+	body #wp-admin-bar #admin-bar-logo { line-height: 1.4em; font-family: arial, helvetica; }
+
+	
+
+			.buddypress-page #settings-form input{ margin-bottom: 1.3em; }
+			.buddypress-page #settings-form .notification-settings input {
+				margin-bottom: 0;
+			}
+			.buddypress-page  #container .submit {
+				border:none;
+				background:none;
+				padding:7px 0px;
+				margin: 0px;
+			}
+				.buddypress-page  #container .submit .auto{padding: 5px;}
+				.buddypress-page ul.button-nav{list-style-type:none;}
+				.buddypress-page form.dir-form div.dir-search {width:47%;}
+				.buddypress-page form.dir-form div.dir-search input[type="submit"] {
+					float:right;
+					clear:right;
+					padding:4px 4px;
+					margin-right:5px;
+				}
+
+			.buddypress-page .profile-fields td{ padding: 5px; }
+			.buddypress-page .radio ul{ margin:  5px 0 1em 50px; }
+			.buddypress-page div.item-list-tabs ul li{ margin: 0 5px; }
+			.buddypress-page table.forum{width: 100%;margin: 1.4em 0;text-align: center;}
+			.buddypress-page table.forum th {padding: 5px;font-weight: normal;}
+			.buddypress-page table.forum td {padding: .5em;}
+			.buddypress-page table.forum .td-poster .poster-name{ display: inline;}
+			.buddypress-page table.forum .td-poster img{ vertical-align: middle;margin-right: 5px;}
+			.buddypress-page table.forum .td-title{font-size: 1.3em;text-align: left;}
+			.buddypress-page table.forum .td-title a:hover{text-decoration: underline;}
+			
+			.buddypress-page .standard-form #topic-meta h3{margin: 1em 0;font-size: 1.9em;}
+			.buddypress-page .standard-form .admin-links{font-size: .8em; padding: 4px 0;}
+			.buddypress-page .item-list li{margin-bottom: 1.5em;padding: 1.5em 0;}
+			.buddypress-page .item-list .item-title{font-size: 1.3em;}
+			.buddypress-page .item-list .poster-meta{font-size: 1.3em; font-style: italic;}
+			.buddypress-page .item-list .poster-meta img{vertical-align: middle;margin-right:10px;}
+			.buddypress-page .item-list .post-content{ padding: 20px 20px 10px;}
+			.buddypress-page #item-actions{margin-bottom: 1em;}
+			.buddypress-page .activity .activity-inner{font-style:normal;padding: 10px 10px 2px;margin-bottom: 1em;}
+			
+		
