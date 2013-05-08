@@ -113,10 +113,28 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 	-webkit-border-radius: 6px;
 	border-radius: 6px;
 }
-.home .fboxtitle h3 {
+.home .fboxtitle h3,  {
 	color:rgb(0,51,102);
 }
 .home .fboxtext {
 	color:  #397AB4;
 	text-align: right;
+}
+.home #banners, .home #banners .content {
+	background-color: rgb(240,247,252);
+	border-top: 1px solid rgb(217,231,243);
+	border-bottom: 1px  solid rgb(217,231,243);
+}
+.home #banners .banner-title {
+	display: none;
+}
+.banner-text-pad{
+	padding-top: 0 !important;
+}
+#banners .banner-content {
+	color: rgb(124,166,10);
+	font-size: 1.75em;
+}
+.home #banners .banner-area {
+	margin-bottom: 0;
 }
