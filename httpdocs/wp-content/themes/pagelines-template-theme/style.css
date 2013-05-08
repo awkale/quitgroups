@@ -38,6 +38,13 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 	font-family: "franklin-gothic-urw";
 }
 
+.section-branding .mainlogo-link, .section-branding .mainlogo-img {
+	display: none;
+}
+
+/* !HOMEPAGE */
+
+	/* !HOMEPAGE main feature */
 .home #feature_slider .fcontent {
 	width: 60%;
 }
@@ -53,7 +60,7 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 	font-weight: 400;
 
 }
-
+/* !HOMEPAGE button for feature */
 #feature_slider .fcontainer .fcontent a.btn {
     -moz-border-bottom-colors: none;
     -moz-border-left-colors: none;
@@ -92,8 +99,13 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
     background-color: #7EB946;
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
 }
-.section-branding .mainlogo-link, .section-branding .mainlogo-img {
-	display: none;
+/* !HOMEPAGE quotation boxes */
+.home .fboxtitle h3  {
+	color:rgb(0,51,102);
+}
+.home .clone_1 .fboxtext {
+	color:  #397AB4;
+	text-align: right;
 }
 .home .box-media {
 	background-color: rgb(240,247,252);
@@ -103,13 +115,8 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 	-webkit-border-radius: 6px;
 	border-radius: 6px;
 }
-.home .fboxtitle h3  {
-	color:rgb(0,51,102);
-}
-.home .clone_1 .fboxtext {
-	color:  #397AB4;
-	text-align: right;
-}
+
+/* !HOMEPAGE banner */
 .home #banners .content {
 	background-color: rgb(240,247,252);
 	border-top: 1px solid rgb(217,231,243);
@@ -142,6 +149,8 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 .home #content #callout.clone_1 {
 	margin: 5em 0 8em;
 }
+
+/* !HOMEPAGE button on bottom */
 .home a.btn {
     -moz-border-bottom-colors: none;
     -moz-border-left-colors: none;
@@ -181,6 +190,8 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
     background-image: none;
 }
+
+/* !HOMEPAGE callouts */
 .home #content .clone_1 .callout-area .callout_text {
 	display: none;
 }
