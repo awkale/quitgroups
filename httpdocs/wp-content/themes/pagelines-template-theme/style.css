@@ -120,7 +120,7 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 	color:  #397AB4;
 	text-align: right;
 }
-.home #banners, .home #banners .content {
+.home #banners .content {
 	background-color: rgb(240,247,252);
 	border-top: 1px solid rgb(217,231,243);
 	border-bottom: 1px  solid rgb(217,231,243);
