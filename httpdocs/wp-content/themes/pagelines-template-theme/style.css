@@ -44,6 +44,15 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 
 /* !HOMEPAGE */
 
+/* !HOMEPAGE block spacing */
+
+.home #boxes .content-pad .grid-row {
+	margin: 2em 0;
+}
+.home #content .content-pad #pagelines_content {
+	margin-top: 2em;
+}
+
 	/* !HOMEPAGE main feature */
 .home #feature_slider .fcontent {
 	width: 60%;
