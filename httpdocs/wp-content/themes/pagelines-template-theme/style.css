@@ -116,7 +116,7 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 .home .fboxtitle h3  {
 	color:rgb(0,51,102);
 }
-.home .fboxtext {
+.home .clone_1 .fboxtext {
 	color:  #397AB4;
 	text-align: right;
 }
@@ -140,4 +140,32 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 }
 .home .clone_2 .fboxtitle h3 {
 	color: rgb(124,166,10);
+	font-size: 7em;
+    line-height: 1em;
+    padding: 0;
+    text-align: center;
 }
+.home .clone_2 .fboxtext {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
