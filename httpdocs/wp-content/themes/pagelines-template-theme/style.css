@@ -113,7 +113,7 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 	-webkit-border-radius: 6px;
 	border-radius: 6px;
 }
-.home .fboxtitle h3,  {
+.home .fboxtitle h3  {
 	color:rgb(0,51,102);
 }
 .home .fboxtext {
@@ -137,4 +137,7 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 }
 .home #banners .banner-area {
 	margin-bottom: 0;
+}
+.home .clone_2 .fboxtitle h3 {
+	color: rgb(124,166,10);
 }
