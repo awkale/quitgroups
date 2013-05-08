@@ -34,7 +34,7 @@ Themes follow the basic WordPress themes header scheme with the following additi
  *	page.example.php - Custom page template, check the file for syntax. This is autoloaded.
  *	sections/		 - Bundle sections with your theme in this folder, each section in a seperate folder.
  */
-body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .metabar, .post-nav, .subtext, .subhead, .widget-title, .reply a, .editpage, #page .wp-pagenavi, .post-edit-link, #wp-calendar caption, #wp-calendar thead th, .soapbox-links a, .fancybox, .standard-form .admin-links, .pagelines-blink, .ftitle small {
+body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .metabar, .post-nav, .subtext, .subhead, .widget-title, .reply a, .editpage, #page .wp-pagenavi, .post-edit-link, #wp-calendar caption, #wp-calendar thead th, .soapbox-links a, .fancybox, .standard-form .admin-links, .pagelines-blink, .ftitle small, .thead, h1, h2, h3, h4, h5, h6, .site-title {
 	font-family: "franklin-gothic-urw";
 }
 
@@ -101,4 +101,22 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 #feature_slider .fcontainer.fstyle-nobg .fcontent a.btn-success {
     background-color: #7EB946;
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+.section-branding .mainlogo-link, .section-branding .mainlogo-img {
+	display: none;
+}
+.home .box-media {
+	background-color: rgb(240,247,252);
+	border: 1px solid rgb(217,231,243);
+	padding: 15px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+.home .fboxtitle h3 {
+	color:rgb(0,51,102);
+}
+.home .fboxtext {
+	color:  #397AB4;
+	text-align: right;
 }
