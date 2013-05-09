@@ -214,16 +214,43 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 
 
 
+/* !BLOG */
 
 
 
+/* !WHO WE ARE */
+.page-id-24 .content .content-pad {
+	padding: 15px 0;
+}
 
-
-
-
-
-
-
+.page-id-24 .pl-hero-wrap {
+	background-color: rgb(240,247,252);
+	border: 1px solid rgb(217,231,243);
+	box-shadow: none;
+	padding: 2% 5%;
+	border-radius: 0;
+}
+.page-id-24 .row > [class*="span"], .page-id-24 .row-fluid > [class*="span"], .page-id-24 .editor-row > [class*="span"] {
+	margin-bottom: 0;
+}
+.page-id-24 .pl-hero-wrap .pl-hero h1 {
+	color: rgb(0,51,102);
+}
+.page-id-24 .pl-hero-wrap .pl-hero p {
+	color: rgb(0,51,102);
+}
+.page-id-24 .banner-text h2 {
+	color: rgb(124,166,10);
+}
+.page-id-24 .banner-text p {
+	color: rgb(0,51,102);
+}
+.page-id-24 #banners .banner-content {
+	font-size: 1.2em;
+}
+.page-id-24 .img-circle {
+	border: 1px solid rgb(124,166,10);
+}
 
 
 
