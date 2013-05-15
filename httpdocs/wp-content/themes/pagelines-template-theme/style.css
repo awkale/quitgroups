@@ -120,6 +120,7 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 .home .clone_1 .fboxtext {
 	color:  #397AB4;
 	text-align: right;
+	font-size: 1.1em;
 }
 .home .box-media {
 	background-color: rgb(240,247,252);
