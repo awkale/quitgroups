@@ -35,7 +35,7 @@ Themes follow the basic WordPress themes header scheme with the following additi
  *	sections/		 - Bundle sections with your theme in this folder, each section in a seperate folder.
  */
 body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .metabar, .post-nav, .subtext, .subhead, .widget-title, .reply a, .editpage, #page .wp-pagenavi, .post-edit-link, #wp-calendar caption, #wp-calendar thead th, .soapbox-links a, .fancybox, .standard-form .admin-links, .pagelines-blink, .ftitle small, .thead, h1, h2, h3, h4, h5, h6, .site-title {
-	font-family: "franklin-gothic-urw";
+	font-family: "franklin-gothic-urw", sans-serif;
 }
 
 .section-branding .mainlogo-link, .section-branding .mainlogo-img {
@@ -46,11 +46,8 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 
 /* !HOMEPAGE block spacing */
 
-.home #boxes .content-pad .grid-row {
-	margin: 2em 0;
-}
-.home #content .content-pad #pagelines_content {
-	margin-top: 2em;
+.home #boxes.clone_3 .content-pad .grid-row {
+	margin: 1.5em 0;
 }
 
 	/* !HOMEPAGE main feature */
@@ -88,14 +85,14 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
     color: #333333;
     cursor: pointer;
     display: inline-block;
-    font-family: "Helvetica",Arial,serif;
+    font-family: "franklin-gothic-urw", sans-serif;
     font-size: 14px;
     line-height: 20px;
     margin-bottom: 0;
     padding: 4px 10px;
     text-align: center;
     text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
-    vertical-align: middle;
+    vertical-align: baseline;
 }
 #feature_slider .fcontainer .fcontent a.btn-large {
     border-radius: 5px 5px 5px 5px;
@@ -103,6 +100,7 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
     line-height: normal;
     padding: 16px 25px;
     text-transform: uppercase;
+
 }
 #feature_slider .fcontainer .fcontent a.btn-primary, #feature_slider .fcontainer .fcontent a.btn-primary:hover, #feature_slider .fcontainer .fcontent a.btn-warning, #feature_slider .fcontainer .fcontent a.btn-warning:hover, #feature_slider .fcontainer .fcontent a.btn-important, #feature_slider .fcontainer .fcontent a.btn-important:hover, #feature_slider .fcontainer .fcontent a.btn-success, #feature_slider .fcontainer .fcontent a.btn-success:hover, #feature_slider .fcontainer .fcontent a.btn-info, #feature_slider .fcontainer .fcontent a.btn-info:hover, #feature_slider .fcontainer .fcontent a.btn-inverse, #feature_slider .fcontainer .fcontent a.btn-inverse:hover {
     color: #FFFFFF;
@@ -181,20 +179,21 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
     color: #333333;
     cursor: pointer;
     display: inline-block;
-    font-family: "Helvetica",Arial,serif;
+    font-family: "franklin-gothic-urw", sans-serif;
     font-size: 14px;
     line-height: 20px;
     margin-bottom: 0;
     padding: 4px 10px;
     text-align: center;
     text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
-    vertical-align: middle;
+    vertical-align: baseline;
 }
 .home a.btn-large {
     border-radius: 5px 5px 5px 5px;
     font-size: 30px;
     line-height: normal;
     padding: 18px 40px;
+    text-transform: uppercase;
 }
 .home a.btn-primary, .home a.btn-primary:hover, .home a.btn-warning, .home a.btn-warning:hover, .home a.btn-important, .home a.btn-important:hover, .home a.btn-success, .home a.btn-success:hover, .home a.btn-info, .home a.btn-info:hover, .home a.btn-inverse, .home a.btn-inverse:hover {
     color: #FFFFFF;
@@ -216,8 +215,15 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
     line-height: normal;
     padding: 10px 16px;
 }
-
-
+.home #callout.clone_1 .content .content-pad {
+	padding: 15px 15px 50px;
+}
+#callout.clone_1 h2 {
+	font-size: 6em;
+}
+.home #callout.clone_3 .content-pad {
+	padding-bottom: 40px;
+}
 
 
 /* !BLOG */
@@ -257,6 +263,15 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 .page-id-24 .img-circle {
 	border: 1px solid rgb(124,166,10);
 }
+
+#twitter-widget-0 {
+	width: 100% !important;
+}
+
+
+
+
+
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
