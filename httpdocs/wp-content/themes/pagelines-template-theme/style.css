@@ -150,14 +150,14 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 .home #banners .banner-area {
 	margin-bottom: 0;
 }
-.home .clone_2 .fboxtitle h3 {
+.home .clone_3 .fboxtitle h3 {
 	color: rgb(124,166,10);
 	font-size: 7em;
     line-height: 1em;
     padding: 0;
     text-align: center;
 }
-.home .clone_2 .fboxtext {
+.home .clone_3 .fboxtext {
 	font-size: 1.5em;
 	text-align: center;
 }
@@ -210,7 +210,7 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 .home #content .clone_1 .callout-area .callout_text {
 	display: none;
 }
-.home .clone_2 a.btn-large {
+.home .clone_3 a.btn-large {
     border-radius: 5px 5px 5px 5px;
     font-size: 15px;
     line-height: normal;
