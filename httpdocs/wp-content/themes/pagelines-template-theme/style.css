@@ -69,6 +69,9 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 	font-weight: 400;
 
 }
+#feature_slider .fcontent .fcontent-pad {
+	padding: 20px 45px;
+}
 /* !HOMEPAGE button for feature */
 #feature_slider .fcontainer .fcontent a.btn {
     -moz-border-bottom-colors: none;
@@ -96,9 +99,10 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 }
 #feature_slider .fcontainer .fcontent a.btn-large {
     border-radius: 5px 5px 5px 5px;
-    font-size: 20px;
+    font-size: 22px;
     line-height: normal;
-    padding: 10px 16px;
+    padding: 16px 25px;
+    text-transform: uppercase;
 }
 #feature_slider .fcontainer .fcontent a.btn-primary, #feature_slider .fcontainer .fcontent a.btn-primary:hover, #feature_slider .fcontainer .fcontent a.btn-warning, #feature_slider .fcontainer .fcontent a.btn-warning:hover, #feature_slider .fcontainer .fcontent a.btn-important, #feature_slider .fcontainer .fcontent a.btn-important:hover, #feature_slider .fcontainer .fcontent a.btn-success, #feature_slider .fcontainer .fcontent a.btn-success:hover, #feature_slider .fcontainer .fcontent a.btn-info, #feature_slider .fcontainer .fcontent a.btn-info:hover, #feature_slider .fcontainer .fcontent a.btn-inverse, #feature_slider .fcontainer .fcontent a.btn-inverse:hover {
     color: #FFFFFF;
@@ -111,6 +115,7 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 /* !HOMEPAGE quotation boxes */
 .home .fboxtitle h3  {
 	color:rgb(0,51,102);
+	font-size: 2.1em;
 }
 .home .clone_1 .fboxtext {
 	color:  #397AB4;
