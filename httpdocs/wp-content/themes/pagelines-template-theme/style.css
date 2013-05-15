@@ -46,7 +46,7 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 
 /* !HOMEPAGE block spacing */
 
-.home #boxes.clone_3 .content-pad .grid-row {
+.home #boxes.clone_2 .content-pad .grid-row {
 	margin: 1.5em 0;
 }
 
@@ -100,6 +100,7 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
     line-height: normal;
     padding: 16px 25px;
     text-transform: uppercase;
+    font-weight: 700;
 
 }
 #feature_slider .fcontainer .fcontent a.btn-primary, #feature_slider .fcontainer .fcontent a.btn-primary:hover, #feature_slider .fcontainer .fcontent a.btn-warning, #feature_slider .fcontainer .fcontent a.btn-warning:hover, #feature_slider .fcontainer .fcontent a.btn-important, #feature_slider .fcontainer .fcontent a.btn-important:hover, #feature_slider .fcontainer .fcontent a.btn-success, #feature_slider .fcontainer .fcontent a.btn-success:hover, #feature_slider .fcontainer .fcontent a.btn-info, #feature_slider .fcontainer .fcontent a.btn-info:hover, #feature_slider .fcontainer .fcontent a.btn-inverse, #feature_slider .fcontainer .fcontent a.btn-inverse:hover {
@@ -110,6 +111,14 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
     background-color: #7EB946;
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
 }
+#feature_slider .fcontainer .fcontent a:hover {
+	background-color: #397AB4;
+}
+#bbb {
+	margin-top: 15px;
+}
+
+
 /* !HOMEPAGE quotation boxes */
 .home .fboxtitle h3  {
 	color:rgb(0,51,102);
@@ -118,12 +127,12 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 .home .clone_1 .fboxtext {
 	color:  #397AB4;
 	text-align: right;
-	font-size: 1.1em;
+	font-size: 1.2em;
 }
 .home .box-media {
 	background-color: rgb(240,247,252);
 	border: 1px solid rgb(217,231,243);
-	padding: 15px;
+	padding: 10px;
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
 	border-radius: 6px;
@@ -143,19 +152,19 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 }
 #banners .banner-content {
 	color: rgb(124,166,10);
-	font-size: 1.75em;
+	font-size: 1.25em;
 }
 .home #banners .banner-area {
 	margin-bottom: 0;
 }
-.home .clone_3 .fboxtitle h3 {
+.home .clone_2 .fboxtitle h3 {
 	color: rgb(124,166,10);
-	font-size: 7em;
+	font-size: 5em;
     line-height: 1em;
     padding: 0;
     text-align: center;
 }
-.home .clone_3 .fboxtext {
+.home .clone_2 .fboxtext {
 	font-size: 1.5em;
 	text-align: center;
 }
@@ -190,7 +199,7 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 }
 .home a.btn-large {
     border-radius: 5px 5px 5px 5px;
-    font-size: 30px;
+    font-size: 20px;
     line-height: normal;
     padding: 18px 40px;
     text-transform: uppercase;
@@ -219,7 +228,7 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 	padding: 15px 15px 50px;
 }
 #callout.clone_1 h2 {
-	font-size: 6em;
+	font-size: 4em;
 }
 .home #callout.clone_3 .content-pad {
 	padding-bottom: 40px;
@@ -243,13 +252,17 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 	border-radius: 0;
 }
 .page-id-24 .row > [class*="span"], .page-id-24 .row-fluid > [class*="span"], .page-id-24 .editor-row > [class*="span"] {
-	margin-bottom: 0;
+	margin-bottom: 10px;
 }
 .page-id-24 .pl-hero-wrap .pl-hero h1 {
 	color: rgb(0,51,102);
+	font-size: 2.5em;
+	margin-bottom: 20px;
 }
 .page-id-24 .pl-hero-wrap .pl-hero p {
 	color: rgb(0,51,102);
+	font-style: italic;
+	font-size: 1.2em
 }
 .page-id-24 .banner-text h2 {
 	color: rgb(124,166,10);
