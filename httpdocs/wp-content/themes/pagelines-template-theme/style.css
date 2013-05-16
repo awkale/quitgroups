@@ -42,6 +42,17 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 	display: none;
 }
 
+.navbar .searchform {
+	margin: 13px 0 5px;
+}
+.navbar .navline > li > a {
+	padding: 14px 12px 16px;
+	font-size: 1.2em;
+	font-weight: 700;
+}
+.navbar .plbrand img {
+    max-height: 38px;
+}
 /* !HOMEPAGE */
 
 /* !HOMEPAGE block spacing */
@@ -215,9 +226,11 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 }
 
 /* !HOMEPAGE callouts */
+/*
 .home #content .clone_1 .callout-area .callout_text {
 	display: none;
 }
+*/
 .home .clone_3 a.btn-large {
     border-radius: 5px 5px 5px 5px;
     font-size: 15px;
