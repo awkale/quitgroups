@@ -114,7 +114,18 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
     font-weight: 700;
 
 }
-#feature_slider .fcontainer .fcontent a.btn-primary, #feature_slider .fcontainer .fcontent a.btn-primary:hover, #feature_slider .fcontainer .fcontent a.btn-warning, #feature_slider .fcontainer .fcontent a.btn-warning:hover, #feature_slider .fcontainer .fcontent a.btn-important, #feature_slider .fcontainer .fcontent a.btn-important:hover, #feature_slider .fcontainer .fcontent a.btn-success, #feature_slider .fcontainer .fcontent a.btn-success:hover, #feature_slider .fcontainer .fcontent a.btn-info, #feature_slider .fcontainer .fcontent a.btn-info:hover, #feature_slider .fcontainer .fcontent a.btn-inverse, #feature_slider .fcontainer .fcontent a.btn-inverse:hover {
+#feature_slider .fcontainer .fcontent a.btn-primary,
+#feature_slider .fcontainer .fcontent a.btn-primary:hover,
+#feature_slider .fcontainer .fcontent a.btn-warning,
+#feature_slider .fcontainer .fcontent a.btn-warning:hover,
+#feature_slider .fcontainer .fcontent a.btn-important,
+#feature_slider .fcontainer .fcontent a.btn-important:hover,
+#feature_slider .fcontainer .fcontent a.btn-success,
+#feature_slider .fcontainer .fcontent a.btn-success:hover,
+#feature_slider .fcontainer .fcontent a.btn-info,
+#feature_slider .fcontainer .fcontent a.btn-info:hover,
+#feature_slider .fcontainer .fcontent a.btn-inverse,
+#feature_slider .fcontainer .fcontent a.btn-inverse:hover {
     color: #FFFFFF;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
@@ -182,9 +193,31 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 .home #content #callout.clone_1 {
 	margin: 5em 0 8em;
 }
+/* !HOMEPAGE callouts */
 
-/* !HOMEPAGE button on bottom */
-.home a.btn {
+/* top callout */
+
+.home #page-main #dynamic-content #callout.clone_2 a.btn-large {
+    border-radius: 5px 5px 5px 5px;
+    font-size: 13px;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.home #page-main #dynamic-content #callout.clone_2 h2 {
+	float: right;
+	font-size: 1em;
+	color: #000000;
+	font-weight: 400;
+	padding-top: 7px;
+}
+.home #page-main #dynamic-content #callout.clone_2 .content-pad {
+	padding-bottom: 0;
+}
+.home #page-main #dynamic-content #callout.clone_2 .media .img.rtimg {
+	margin: 0;
+}
+/* button on bottom */
+.home #page-main #dynamic-content #content #callout.clone_1 a.btn {
     -moz-border-bottom-colors: none;
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;
@@ -208,42 +241,57 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
     text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
     vertical-align: baseline;
 }
-.home a.btn-large {
+.home #page-main #dynamic-content #content #callout.clone_1 a.btn-large {
     border-radius: 5px 5px 5px 5px;
     font-size: 20px;
     line-height: normal;
     padding: 18px 40px;
     text-transform: uppercase;
 }
-.home a.btn-primary, .home a.btn-primary:hover, .home a.btn-warning, .home a.btn-warning:hover, .home a.btn-important, .home a.btn-important:hover, .home a.btn-success, .home a.btn-success:hover, .home a.btn-info, .home a.btn-info:hover, .home a.btn-inverse, .home a.btn-inverse:hover {
+.home #page-main #dynamic-content #content #callout.clone_1 a.btn-primary,
+.home #page-main #dynamic-content #content #callout.clone_1 a.btn-primary:hover,
+.home #page-main #dynamic-content #content #callout.clone_1 a.btn-warning,
+.home #page-main #dynamic-content #content #callout.clone_1 a.btn-warning:hover,
+.home #page-main #dynamic-content #content #callout.clone_1 a.btn-important,
+.home #page-main #dynamic-content #content #callout.clone_1 a.btn-important:hover,
+.home #page-main #dynamic-content #content #callout.clone_1 a.btn-success,
+.home #page-main #dynamic-content #content #callout.clone_1 a.btn-success:hover,
+.home #page-main #dynamic-content #content #callout.clone_1 a.btn-info,
+.home #page-main #dynamic-content #content #callout.clone_1 a.btn-info:hover,
+.home #page-main #dynamic-content #content #callout.clone_1 a.btn-inverse,
+.home #page-main #dynamic-content #content #callout.clone_1 a.btn-inverse:hover {
     color: #FFFFFF;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
-.home a.btn-success {
+.home #page-main #dynamic-content #content #callout.clone_1 a.btn-success {
     background-color: #7EB946;
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
     background-image: none;
 }
 
-/* !HOMEPAGE callouts */
 /*
 .home #content .clone_1 .callout-area .callout_text {
 	display: none;
 }
 */
+
+
+
+/*
 .home .clone_3 a.btn-large {
     border-radius: 5px 5px 5px 5px;
     font-size: 15px;
     line-height: normal;
     padding: 10px 16px;
 }
-.home #callout.clone_1 .content .content-pad {
+*/
+.home #content #callout.clone_1 .content .content-pad {
 	padding: 15px 15px 50px;
 }
-#callout.clone_1 h2 {
+.home #content #callout.clone_1 h2 {
 	font-size: 4em;
 }
-.home #callout.clone_3 .content-pad {
+.home #content #callout.clone_3 .content-pad {
 	padding-bottom: 40px;
 }
 
