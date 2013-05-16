@@ -59,6 +59,9 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 .navbar.pl-color-grey .navline > li > a:hover {
 	background-color: rgba(0, 51, 102, 0.2);
 }
+.comment-form-url, .form-allowed-tags {
+	display: none;
+}
 
 /* !HOMEPAGE */
 
