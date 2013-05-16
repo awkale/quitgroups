@@ -73,8 +73,23 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
     list-style-type: none;
     margin-right: 15px;
 }
+#morefoot_area .content-pad {
+	padding-top: 20px;
+}
+#morefoot_area #sb_fullwidth ul {
+	margin-bottom: 0
+}
+#morefoot_area #sb_fullwidth ul li a {
+	color: #397AB4;
+}
+#morefoot_area #sb_fullwidth ul li a {
+	color: #7EB946;
+}
 #footer .bbb {
 	float: right;
+}
+#footer h3 {
+	text-align: center;
 }
 
 /* !HOMEPAGE */
@@ -215,7 +230,7 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 	text-align: center;
 }
 .home #content #callout.clone_1 {
-	margin: 5em 0 2em;
+	margin: 2em 0 2em;
 }
 
 /* !HOMEPAGE Stats boxes */
