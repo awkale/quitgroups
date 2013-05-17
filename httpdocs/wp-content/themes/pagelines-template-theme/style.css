@@ -341,7 +341,22 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 
 
 /* !BLOG */
-
+.blog #quickslider p.flex-caption {
+	background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    box-shadow: none;
+    color: #7EB946;
+    font-size: 7em;
+    font-weight: 700;
+    line-height: 1em;
+    margin: 0;
+    max-width: 42%;
+    padding: 13px 2%;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
 
 
 /* !WHO WE ARE */
