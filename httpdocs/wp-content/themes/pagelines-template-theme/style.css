@@ -91,7 +91,9 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 #footer h3 {
 	text-align: center;
 }
-
+.wp-comments {
+	padding-top: 0;
+}
 
 
 
