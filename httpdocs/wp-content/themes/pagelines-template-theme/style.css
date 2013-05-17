@@ -357,6 +357,12 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
     text-align: left;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
 }
+.clip_box {
+	margin-bottom: 1em;
+}
+.hentry {
+	margin-bottom: 1em;
+}
 
 
 /* !WHO WE ARE */
