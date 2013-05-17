@@ -92,6 +92,9 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 	text-align: center;
 }
 
+
+
+
 /* !HOMEPAGE */
 
 /* !HOMEPAGE block spacing */
@@ -383,7 +386,14 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 
 
 
-
+/* !DEFAULT PAGES */
+.page-template-default #content .content-pad #pagelines_content {
+	background-color: #F0F7FC;
+    border: 1px solid #D9E7F3;
+    border-radius: 7px;
+    box-shadow: none;
+    padding: 8% 5% 0%;
+}
 
 
 /* Smartphones (portrait and landscape) ----------- */
