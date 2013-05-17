@@ -183,7 +183,9 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 .bbb {
 	margin-top: 15px;
 }
-
+img.bbb {
+	margin-left: 10px;
+}
 
 /* !HOMEPAGE quotation boxes */
 .home .fboxtitle h3  {
@@ -363,7 +365,9 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 .hentry {
 	margin-bottom: 1em;
 }
-
+.post-nav, .current_posts_info {
+	font-size: 1.2em;
+}
 
 /* !WHO WE ARE */
 .page-id-24 .content .content-pad {
