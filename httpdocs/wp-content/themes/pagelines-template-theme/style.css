@@ -394,8 +394,18 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
     box-shadow: none;
     padding: 8% 5% 0%;
 }
-
-
+.page-id-1344 .hentry table th  {
+	border-bottom: 2px solid black;
+	padding: .1em;
+}
+.page-id-1344 .hentry table td {
+	border-bottom: 1px solid #666666;
+}
+/*
+.page-id-1344 .hentry table td.center{
+	text-align: center;
+}
+*/
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
 and (min-width : 320px)
