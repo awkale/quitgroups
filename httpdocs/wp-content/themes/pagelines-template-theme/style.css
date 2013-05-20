@@ -101,7 +101,11 @@ body {
 .wp-comments {
 	padding-top: 0;
 }
-
+.widget .widget-title {
+	color: #397AB4;
+	font-weight: 700;
+	text-transform: uppercase;
+}
 
 
 /* !HOMEPAGE */
