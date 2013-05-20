@@ -469,7 +469,9 @@ img.bbb {
 	.home .fboxtitle h3 {
 		font-size: 1.75em;
 	}
-
+	.hero_image, .pl-hero h1, .pl-hero p {
+		text-align: left;
+	}
 }
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -505,6 +507,10 @@ and (max-width: 480px) {
 	.home .fboxtitle h3 {
 		font-size: 1.5em;
 	}
+	.hero_image, .pl-hero h1, .pl-hero p {
+		text-align: left;
+	}
+
 }
 /* Smartphones (landscape) ----------- */
 @media only screen
