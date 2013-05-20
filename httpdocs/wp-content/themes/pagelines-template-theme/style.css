@@ -37,6 +37,13 @@ Themes follow the basic WordPress themes header scheme with the following additi
 body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .metabar, .post-nav, .subtext, .subhead, .widget-title, .reply a, .editpage, #page .wp-pagenavi, .post-edit-link, #wp-calendar caption, #wp-calendar thead th, .soapbox-links a, .fancybox, .standard-form .admin-links, .pagelines-blink, .ftitle small, .thead, h1, h2, h3, h4, h5, h6, .site-title {
 	font-family: "franklin-gothic-urw", sans-serif;
 }
+body {
+	font-size: 16px;
+}
+.font-sub, ul.main-nav, #secondnav, .metabar, .post-nav, .subtext, .subhead, .widget-title, .reply a, .editpage, #page .wp-pagenavi, .post-edit-link, #wp-calendar caption, #wp-calendar thead th, .soapbox-links a, .fancybox, .standard-form .admin-links, .pagelines-blink, .ftitle small {
+	font-weight: normal;
+	font-size: 100%;
+}
 
 .section-branding .mainlogo-link, .section-branding .mainlogo-img {
 	display: none;
@@ -107,18 +114,18 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 
 	/* !HOMEPAGE main feature */
 .home #feature_slider .fcontent {
-	width: 60%;
+	width: 50%;
 }
 .home #feature_slider .fcontent h2, .home #feature_slider .fcontainer.fstyle-nobg .fcontent h2 {
-	font-size: 3.4em;
+	font-size: 2.5em;
 	color: #397AB4;
 	line-height: 1.1em;
 }
 .home #feature_slider .fcontent h3, .home #feature_slider .fcontainer.fstyle-nobg .fcontent h3 {
-	font-size: 2.2em;
+	font-size: 1.5em;
 	color: #397AB4;
 	margin-right: 25%;
-	margin-bottom: 10px;
+	margin-bottom: 45px;
 	font-weight: 400;
 
 }
@@ -191,7 +198,7 @@ img.bbb {
 /* !HOMEPAGE quotation boxes */
 .home .fboxtitle h3  {
 	color:rgb(0,51,102);
-	font-size: 2.1em;
+	font-size: 1.75em;
 }
 .home .clone_1 .fboxtext {
 	color:  #397AB4;
@@ -228,13 +235,13 @@ img.bbb {
 }
 .home .clone_2 .fboxtitle h3 {
 	color: rgb(124,166,10);
-	font-size: 5em;
+	font-size: 4em;
     line-height: 1em;
     padding: 0;
     text-align: center;
 }
 .home .clone_2 .fboxtext {
-	font-size: 1.5em;
+	font-size: 1.1em;
 	text-align: center;
 }
 .home #content #callout.clone_1 {
