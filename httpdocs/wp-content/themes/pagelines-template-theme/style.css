@@ -110,14 +110,15 @@ body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .
 	width: 60%;
 }
 .home #feature_slider .fcontent h2, .home #feature_slider .fcontainer.fstyle-nobg .fcontent h2 {
-	font-size: 3.75em;
+	font-size: 3.4em;
 	color: #397AB4;
+	line-height: 1.1em;
 }
 .home #feature_slider .fcontent h3, .home #feature_slider .fcontainer.fstyle-nobg .fcontent h3 {
-	font-size: 2.5em;
+	font-size: 2.2em;
 	color: #397AB4;
 	margin-right: 25%;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 	font-weight: 400;
 
 }
@@ -435,10 +436,35 @@ img.bbb {
 	text-align: center;
 }
 */
+/* smaller than 768 --------- */
+@media only screen  and (min-width: 491px) and (max-width: 768px) {
+	.home #feature_slider .fcontent h2, .home #feature_slider .fcontainer.fstyle-nobg .fcontent h2 {
+	font-size: 2.5em;
+	}
+	.home #feature_slider .fcontent h3, .home #feature_slider .fcontainer.fstyle-nobg .fcontent h3 {
+	font-size: 1.5em;
+	margin-bottom: 10px;
+	}
+	#feature_slider .fcontainer .fcontent a.btn-large {
+    font-size: 16px;
+	}
+	img.bbb {
+		max-height: 50px;
+		margin-top: 0;
+	}
+	.blog #quickslider p.flex-caption {
+		font-size: 5em;
+	}
+	.home .fboxtitle h3 {
+		font-size: 1.75em;
+	}
+
+}
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
-and (min-width : 320px)
-and (max-width : 480px) {
+and (min-width: 320px)
+and (max-width: 480px) {
 /* Styles */
 	.responsive #page #feature_slider .fcontainer .fcontent {
 	width: 70%;
@@ -465,48 +491,55 @@ and (max-width : 480px) {
 		max-height: 30px;
 		margin-top: 0;
 	}
-
+	.home .fboxtitle h3 {
+		font-size: 1.5em;
+	}
 }
-
 /* Smartphones (landscape) ----------- */
 @media only screen
-and (min-width : 321px) {
+and (min-width: 331px) and (max-width: 490px) {
 /* Styles */
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen
-and (max-width : 320px) {
-/* Styles */
-
-
-}
-
-/* smaller than 768 --------- */
-@media only screen  and (min-width: 481px) and (max-width: 768px) {
-	.home #feature_slider .fcontent h2, .home #feature_slider .fcontainer.fstyle-nobg .fcontent h2 {
-	font-size: 2.5em;
+	.blog #quickslider p.flex-caption {
+		font-size: 4em;
 	}
-	.home #feature_slider .fcontent h3, .home #feature_slider .fcontainer.fstyle-nobg .fcontent h3 {
-	font-size: 1.5em;
-	margin-bottom: 10px;
+	.home .fboxtitle h3 {
+		font-size: 1.5em;
 	}
 	#feature_slider .fcontainer .fcontent a.btn-large {
-    font-size: 16px;
+		padding: 11px 14px;
+		font-size: 11px
 	}
-	img.bbb {
-		max-height: 50px;
-		margin-top: 0;
-	}
-
-
 }
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width: 330px) {
+/* Styles */
+	.blog #quickslider p.flex-caption {
+		font-size: 2em;
+	}
+	.home #feature_slider .fcontent h2, .home #feature_slider .fcontainer.fstyle-nobg .fcontent h2 {
+		font-size: 1.5em;
+	}
+	.home #feature_slider .fcontent h3, .home #feature_slider .fcontainer.fstyle-nobg .fcontent h3 {
+		font-size: .75em;
+	}
+	#feature_slider .fcontainer .fcontent a.btn-large {
+		font-size: 10px;
+	}
+}
+
+
+
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px) {
 /* Styles */
+	.home .fboxtitle h3 {
+		font-size: 1.75em;
+	}
+
 }
 
 /* iPads (landscape) ----------- */
