@@ -34,24 +34,41 @@ Themes follow the basic WordPress themes header scheme with the following additi
  *	page.example.php - Custom page template, check the file for syntax. This is autoloaded.
  *	sections/		 - Bundle sections with your theme in this folder, each section in a seperate folder.
  */
-body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .metabar, .post-nav, .subtext, .subhead, .widget-title, .reply a, .editpage, #page .wp-pagenavi, .post-edit-link, #wp-calendar caption, #wp-calendar thead th, .soapbox-links a, .fancybox, .standard-form .admin-links, .pagelines-blink, .ftitle small, .thead, h1, h2, h3, h4, h5, h6, .site-title {
-	font-family: "franklin-gothic-urw", sans-serif;
+body, .font1, .font-primary, .commentlist, .font-sub, ul.main-nav, #secondnav, .metabar, .post-nav, .subtext, .subhead, .widget-title, .reply a, .editpage, #page .wp-pagenavi, .post-edit-link, #wp-calendar caption, #wp-calendar thead th, .soapbox-links a, .fancybox, .standard-form .admin-links, .pagelines-blink, .ftitle small, .thead, h1, h2, h3, h4, h5, h6, .site-title, #highlight .highlight-subhead, input, button, select, textarea {
+	font-family: "nimbus-sans";, sans-serif;
 }
 body {
 	font-size: 16px;
+}
+p {
+	margin: 1em 0;
 }
 .font-sub, ul.main-nav, #secondnav, .metabar, .post-nav, .subtext, .subhead, .widget-title, .reply a, .editpage, #page .wp-pagenavi, .post-edit-link, #wp-calendar caption, #wp-calendar thead th, .soapbox-links a, .fancybox, .standard-form .admin-links, .pagelines-blink, .ftitle small {
 	font-weight: normal;
 	font-size: 100%;
 }
-
+.content .content-pad {
+	padding: 15px 30px;
+}
+/*
 .section-branding .mainlogo-link, .section-branding .mainlogo-img {
 	display: none;
 }
-
+*/
+/* !NAV */
+.section-brandnav .content-pad {
+	padding-bottom: 0;
+}
+.section-brandnav .brandnav-nav {
+	margin-top: 16px;
+}
+ul.main-nav {
+	font-size: 130%;
+}
 .navbar .searchform {
 	margin: 13px 0 5px;
 }
+/*
 .navbar .navline > li > a {
 	padding: 14px 12px 16px;
 	font-size: 1.2em;
@@ -66,6 +83,7 @@ body {
 .navbar.pl-color-grey .navline > li > a:hover {
 	background-color: rgba(0, 51, 102, 0.2);
 }
+*/
 .comment-form-url, .form-allowed-tags {
 	display: none;
 }
@@ -109,6 +127,9 @@ body {
 
 
 /* !HOMEPAGE */
+.home h1.pagetitle {
+	display: none;
+}
 
 /* !HOMEPAGE block spacing */
 
@@ -116,18 +137,34 @@ body {
 	margin: 1.5em 0;
 }
 
-	/* !HOMEPAGE main feature */
+/* !HOMEPAGE highlight */
+#highlight .highlight-subhead {
+	font-size: 1.65em;
+	color: #000000;
+	margin-bottom: 0;
+}
+.home #highlight .highlight-area {
+/* 	background-color: rgb(240,247,252); */
+	border: 1px solid #000000;
+	padding: 7px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+
+/* !HOMEPAGE main feature */
+/*
 .home #feature_slider .fcontent {
 	width: 50%;
 }
-.home #feature_slider .fcontent h2, .home #feature_slider .fcontainer.fstyle-nobg .fcontent h2 {
-	font-size: 2.5em;
+.home #feature_slider .fcontent h2, .home #feature_slider .fcontainer.fstyle-nobg .fcontent h2, .home #hero h1 {
+	font-size: 3.25em;
 	color: #397AB4;
 	line-height: 1.1em;
 }
-.home #feature_slider .fcontent h3, .home #feature_slider .fcontainer.fstyle-nobg .fcontent h3 {
-	font-size: 1.5em;
-	color: #397AB4;
+.home #feature_slider .fcontent h3, .home #feature_slider .fcontainer.fstyle-nobg .fcontent h3, .home #hero p {
+	font-size: 1.85em;
+	color: #000000;
 	margin-right: 25%;
 	margin-bottom: 45px;
 	font-weight: 400;
@@ -136,8 +173,11 @@ body {
 #feature_slider .fcontent .fcontent-pad {
 	padding: 20px 45px;
 }
+*/
+
 /* !HOMEPAGE button for feature */
-#feature_slider .fcontainer .fcontent a.btn {
+/*
+.home #feature_slider .fcontainer .fcontent a.btn, .home #hero .pl-hero a.btn {
     -moz-border-bottom-colors: none;
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;
@@ -161,7 +201,8 @@ body {
     text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
     vertical-align: baseline;
 }
-#feature_slider .fcontainer .fcontent a.btn-large {
+
+.home #feature_slider .fcontainer .fcontent a.btn-large, .home #hero .pl-hero a.btn-large {
     border-radius: 5px 5px 5px 5px;
     font-size: 22px;
     line-height: normal;
@@ -170,34 +211,59 @@ body {
     font-weight: 700;
 
 }
-#feature_slider .fcontainer .fcontent a.btn-primary,
-#feature_slider .fcontainer .fcontent a.btn-primary:hover,
-#feature_slider .fcontainer .fcontent a.btn-warning,
-#feature_slider .fcontainer .fcontent a.btn-warning:hover,
-#feature_slider .fcontainer .fcontent a.btn-important,
-#feature_slider .fcontainer .fcontent a.btn-important:hover,
-#feature_slider .fcontainer .fcontent a.btn-success,
-#feature_slider .fcontainer .fcontent a.btn-success:hover,
-#feature_slider .fcontainer .fcontent a.btn-info,
-#feature_slider .fcontainer .fcontent a.btn-info:hover,
-#feature_slider .fcontainer .fcontent a.btn-inverse,
-#feature_slider .fcontainer .fcontent a.btn-inverse:hover {
+
+.home #feature_slider .fcontainer .fcontent a.btn-primary,
+.home #feature_slider .fcontainer .fcontent a.btn-primary:hover,
+.home #feature_slider .fcontainer .fcontent a.btn-warning,
+.home #feature_slider .fcontainer .fcontent a.btn-warning:hover,
+.home #feature_slider .fcontainer .fcontent a.btn-important,
+.home #feature_slider .fcontainer .fcontent a.btn-important:hover,
+.home #feature_slider .fcontainer .fcontent a.btn-success,
+.home #feature_slider .fcontainer .fcontent a.btn-success:hover,
+.home #feature_slider .fcontainer .fcontent a.btn-info,
+.home #feature_slider .fcontainer .fcontent a.btn-info:hover,
+.home #feature_slider .fcontainer .fcontent a.btn-inverse,
+.home #feature_slider .fcontainer .fcontent a.btn-inverse:hover,
+.home #hero .pl-hero a.btn-primary,
+.home #hero .pl-hero a.btn-primary:hover,
+.home #hero .pl-hero a.btn-warning,
+.home #hero .pl-hero a.btn-warning:hover,
+.home #hero .pl-hero a.btn-important,
+.home #hero .pl-hero a.btn-important:hover,
+.home #hero .pl-hero a.btn-success,
+.home #hero .pl-hero a.btn-success:hover,
+.home #hero .pl-hero a.btn-info,
+.home #hero .pl-hero a.btn-info:hover,
+.home #hero .pl-hero a.btn-inverse,
+.home #hero .pl-hero a.btn-inverse:hover {
     color: #FFFFFF;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
-#feature_slider .fcontainer .fcontent a.btn-success {
+*/
+/*
+.home #feature_slider .fcontainer .fcontent a.btn-success, .home #hero .pl-hero a.btn-success {
     background-color: #7EB946;
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    background-image: none;
 }
-#feature_slider .fcontainer .fcontent a:hover {
+*/
+/*
+.home #feature_slider .fcontainer .fcontent a:hover, .home #hero .pl-hero a:hover {
 	background-color: #397AB4;
 }
+*/
 .bbb {
 	margin-top: 15px;
 }
 img.bbb {
 	margin-left: 10px;
 }
+
+
+
+
+
+
 
 /* !HOMEPAGE quotation boxes */
 .home .fboxtitle h3  {
@@ -218,7 +284,47 @@ img.bbb {
 	border-radius: 6px;
 }
 
+
+
+
+
+
+
+
+
+
 /* !HOMEPAGE banner */
+.home #banners .content-pad {
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.home #banners .banner-content {
+	line-height: 1.3em;
+	font-size: 1em;
+}
+.home #banners.clone_1 .banner-text .banner-content {
+	font-size: 1.9em;
+	text-align: center;
+}
+.home #banners.clone_1 .banner-text .banner-content p:first-child {
+	margin-bottom: 1.5em;
+}
+.home #banners.clone_1 h2 {
+	font-size: 1.9em;
+	line-height: 1.1em;
+	color: #000000;
+	font-weight: 400;
+	text-align: center
+}
+.home #banners a.btn-large {
+    border-radius: 5px 5px 5px 5px;
+    font-size: 26px;
+    line-height: normal;
+    padding: 18px 34px 14px;
+    font-weight: 700;
+}
+
+/*
 .home #banners .content {
 	background-color: rgb(240,247,252);
 	border-top: 1px solid rgb(217,231,243);
@@ -244,6 +350,7 @@ img.bbb {
     padding: 0;
     text-align: center;
 }
+
 .home .clone_2 .fboxtext {
 	font-size: 1.1em;
 	text-align: center;
@@ -251,11 +358,26 @@ img.bbb {
 .home #content #callout.clone_1 {
 	margin: 2em 0 2em;
 }
+*/
+
+
+
+
 
 /* !HOMEPAGE Stats boxes */
+/*
 .home #boxes.clone_2 {
 	margin-top: 2.8em;
 }
+*/
+
+
+
+
+
+
+
+
 
 /* !HOMEPAGE callouts */
 
@@ -265,26 +387,33 @@ img.bbb {
     border-radius: 5px 5px 5px 5px;
     font-size: 11px;
     line-height: normal;
-    text-transform: uppercase;
     padding:  7px 10px;
+    font-weight: 700;
 }
 .home #page-main #dynamic-content #callout.clone_2 h2 {
 	float: right;
 	font-size: 1em;
 	color: #000000;
 	font-weight: 400;
-	padding-top: 7px;
+	padding-top: 4px;
 }
+.home #page-main #dynamic-content #callout.clone_2 .content-pad {
+	padding-top: 10px;
+}
+/*
 .home #page-main #dynamic-content #callout.clone_2 .content-pad {
 	padding-bottom: 0;
 }
+*/
 .home #page-main #dynamic-content #callout.clone_2 .media .img.rtimg {
 	margin: 0;
 }
 .home #page-main #dynamic-content #callout.clone_2 .section-callout .callout-area {
 	padding-right: 0;
 }
+
 /* button on bottom */
+/*
 .home #page-main #dynamic-content #content #callout.clone_1 a.btn {
     -moz-border-bottom-colors: none;
     -moz-border-left-colors: none;
@@ -309,13 +438,15 @@ img.bbb {
     text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
     vertical-align: baseline;
 }
-.home #page-main #dynamic-content #content #callout.clone_1 a.btn-large {
+*/
+.home #callout.clone_1 a.btn-large {
     border-radius: 5px 5px 5px 5px;
-    font-size: 20px;
+    font-size: 26px;
     line-height: normal;
-    padding: 18px 40px;
-    text-transform: uppercase;
+    padding: 18px 34px 14px;
+    font-weight: 700;
 }
+/*
 .home #page-main #dynamic-content #content #callout.clone_1 a.btn-primary,
 .home #page-main #dynamic-content #content #callout.clone_1 a.btn-primary:hover,
 .home #page-main #dynamic-content #content #callout.clone_1 a.btn-warning,
@@ -336,22 +467,31 @@ img.bbb {
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
     background-image: none;
 }
+*/
 
-.home #content #callout.clone_1 .content .content-pad {
-	padding: 15px 15px 50px;
+.home #callout.clone_1 .content-pad {
+	padding: 50px 15px;
 }
-.home #content #callout.clone_1 h2 {
-	font-size: 4em;
+.home  #callout.clone_1 h2 {
+	display: none;
 }
-.home #content #callout.clone_3 .content-pad {
-	padding-bottom: 40px;
-}
+
+
+
+
+
 
 /* !HOMEPAGE callout bbb */
 
 .home #content #contentbox .bbb {
 	text-align: center;
 }
+
+
+
+
+
+
 
 
 /* !BLOG */
@@ -433,7 +573,7 @@ img.bbb {
     border: 1px solid #D9E7F3;
     border-radius: 7px;
     box-shadow: none;
-    padding: 8% 5% 0%;
+    padding: 3%;
 }
 .page-id-1344 .hentry table th  {
 	border-bottom: 2px solid black;
@@ -442,11 +582,38 @@ img.bbb {
 .page-id-1344 .hentry table td {
 	border-bottom: 1px solid #666666;
 }
+.page-template-default #content .content-pad {
+	padding-top: 30px;
+}
 /*
 .page-id-1344 .hentry table td.center{
 	text-align: center;
 }
 */
+
+
+/* !MAILCHIMP */
+
+#mc_signup_form .mc_input {
+    width: 100%;
+}
+#mc_signup_form {
+	background-color: #E3E3E3;
+}
+
+/* !BUDDYPRESS */
+.buddypress-page #page #subnav.item-list-tabs, div.item-list-tabs ul li.selected a, div.item-list-tabs ul li.current {
+
+}
+.buddypress-page #page #subnav .feed {
+	display: none;
+}
+.buddypress-page #page #subnav #activity-filter-select label {
+	float: left;
+}
+.buddypress-page #page #subnav.item-list-tabs {
+	margin-bottom: 15px;
+}
 /* smaller than 768 --------- */
 @media only screen  and (min-width: 491px) and (max-width: 768px) {
 	.home #feature_slider .fcontent h2, .home #feature_slider .fcontainer.fstyle-nobg .fcontent h2 {
@@ -466,9 +633,11 @@ img.bbb {
 	.blog #quickslider p.flex-caption {
 		font-size: 5em;
 	}
+/*
 	.home .fboxtitle h3 {
 		font-size: 1.75em;
 	}
+*/
 	.hero_image, .pl-hero h1, .pl-hero p {
 		text-align: left;
 	}
@@ -519,9 +688,11 @@ and (min-width: 331px) and (max-width: 490px) {
 	.blog #quickslider p.flex-caption {
 		font-size: 4em;
 	}
+/*
 	.home .fboxtitle h3 {
 		font-size: 1.5em;
 	}
+*/
 	#feature_slider .fcontainer .fcontent a.btn-large {
 		padding: 11px 14px;
 		font-size: 11px
