@@ -139,7 +139,7 @@ ul.main-nav {
 
 /* !HOMEPAGE highlight */
 #highlight .highlight-subhead {
-	font-size: 1.65em;
+	font-size: 1.5em;
 	color: #000000;
 	margin-bottom: 0;
 }
@@ -268,12 +268,12 @@ img.bbb {
 /* !HOMEPAGE quotation boxes */
 .home .fboxtitle h3  {
 	color:rgb(0,51,102);
-	font-size: 1.75em;
+	font-size: 1.2em;
 }
 .home .clone_1 .fboxtext {
 	color:  #397AB4;
 	text-align: right;
-	font-size: 1.2em;
+	font-size: 1em;
 }
 .home .box-media {
 	background-color: rgb(240,247,252);
@@ -297,6 +297,10 @@ img.bbb {
 .home #banners .content-pad {
 	padding-bottom: 40px;
 	padding-top: 40px;
+}
+.home #banners.clone_2 .content-pad {
+	padding-bottom: 0;
+	padding-top: 20px;
 }
 .home #banners .banner-content {
 	line-height: 1.3em;
@@ -523,6 +527,11 @@ img.bbb {
 .blog .section-quickslider .content-pad {
 	padding: 15px;
 }
+a.post-thumb {
+	padding-top: 13px;
+}
+
+
 /* !WHO WE ARE */
 .page-id-24 .content .content-pad {
 	padding: 15px 0;
@@ -563,6 +572,19 @@ img.bbb {
 
 #twitter-widget-0 {
 	width: 100% !important;
+}
+.page-id-24 #callout.clone_1 a.btn-large {
+    border-radius: 5px 5px 5px 5px;
+    font-size: 26px;
+    line-height: normal;
+    padding: 18px 34px 14px;
+    font-weight: 700;
+}
+.page-id-24 #callout.clone_1 .content-pad {
+	padding: 50px 15px;
+}
+.page-id-24  #callout.clone_1 h2 {
+	display: none;
 }
 
 
@@ -605,11 +627,19 @@ img.bbb {
 .buddypress-page #page #subnav.item-list-tabs, div.item-list-tabs ul li.selected a, div.item-list-tabs ul li.current {
 
 }
+.buddypress-page #page #dynamic-content .padder {
+	padding: 5px;
+}
 .buddypress-page #page #subnav .feed {
 	display: none;
 }
-.buddypress-page #page #subnav #activity-filter-select label {
+.buddypress-page #page #subnav #activity-filter-select #activity-filter-by {
+	margin-bottom: 0;
+}
+.buddypress-page #page #subnav #activity-filter-select label, .buddypress-page #page #subnav #members-order-select label {
 	float: left;
+	padding-right: 5px;
+    padding-top: 3px;
 }
 .buddypress-page #page #subnav.item-list-tabs {
 	margin-bottom: 15px;
@@ -725,7 +755,10 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) {
 /* Styles */
 	.home .fboxtitle h3 {
-		font-size: 1.75em;
+		font-size: 1.25em;
+	}
+	.home .clone_1 .fboxtext {
+		font-size: .9em;
 	}
 
 }
@@ -744,6 +777,15 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait) {
 /* Styles */
+	.home #banners.clone_1 .banner-text .banner-content {
+		font-size: 1.2em;
+	}
+	.home #banners a.btn-large {
+    font-size: 20px;
+	}
+	.home #banners.clone_1 h2 {
+	font-size: 1.2em;
+	}
 
 
 }
