@@ -127,7 +127,12 @@ ul.main-nav {
 .gform_wrapper.gf_browser_chrome .gfield_checkbox li input[type=checkbox], .gform_wrapper.gf_browser_chrome .gfield_radio li input[type=radio], .gform_wrapper.gf_browser_chrome .gfield_checkbox li input {
 	margin: 4px;
 }
-
+.label {
+	text-shadow: none;
+}
+table tr.alt td {
+	color: #757575;
+}
 /* !HOMEPAGE */
 .home h1.pagetitle {
 	display: none;
