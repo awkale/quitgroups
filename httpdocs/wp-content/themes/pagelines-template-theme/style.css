@@ -673,8 +673,10 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 div.item-list-tabs ul li.selected a span, div.item-list-tabs ul li.current a span, div.item-list-tabs ul li a:hover span {
 	background: #6f6f6f;
 }
-
-
+.mc_signup_submit {
+text-align: left;
+margin-top: 10px;
+}
 
 /* !MAILCHIMP */
 
