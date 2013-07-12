@@ -677,6 +677,9 @@ div.item-list-tabs ul li.selected a span, div.item-list-tabs ul li.current a spa
 text-align: left;
 margin-top: 10px;
 }
+.messages .message-search label {
+	display: inline;
+}
 
 /* !MAILCHIMP */
 
