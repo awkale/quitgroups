@@ -659,6 +659,11 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 	font-size: 13px;
 }
 /* !COMMUNITY */
+body.logged-in li#menu-item-3315 {
+	display: none;
+}
+
+
 .activity-inner > p {
 	margin: 0;
 }
@@ -682,6 +687,12 @@ margin-top: 10px;
 .messages .message-search label {
 	display: inline;
 }
+
+/* !Messages */
+body.messages td.thread-avatar {
+	width: 7%;
+}
+
 
 /* !MAILCHIMP */
 
