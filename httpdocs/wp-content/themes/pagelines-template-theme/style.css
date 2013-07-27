@@ -50,6 +50,15 @@ p {
 .content .content-pad {
 	padding: 15px 30px;
 }
+.logged-in section.section-callout.clone_2 {
+	display: none;
+}
+section.clone_1.section-navbar {
+	display: none;
+}
+.logged-in section.clone_1.section-navbar {
+	display: block;
+}
 /*
 .section-branding .mainlogo-link, .section-branding .mainlogo-img {
 	display: none;
@@ -86,6 +95,7 @@ ul.main-nav {
 	background-color: rgba(0, 51, 102, 0.2);
 }
 */
+
 .comment-form-url, .form-allowed-tags {
 	display: none;
 }
@@ -659,7 +669,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 	font-size: 13px;
 }
 /* !COMMUNITY */
-body.logged-in li#menu-item-3315 {
+body.logged-in section#brandnav ul#menu-main-menu {
 	display: none;
 }
 
