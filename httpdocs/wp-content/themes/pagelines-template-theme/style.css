@@ -523,6 +523,10 @@ img.bbb {
 
 
 /* !BLOG */
+.single-post #respond #commentform label {
+	display: block;
+}
+
 .blog #quickslider p.flex-caption {
 	background: none repeat scroll 0 0 transparent;
     bottom: 0;
@@ -672,7 +676,9 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 body.logged-in section#brandnav ul#menu-main-menu {
 	display: none;
 }
-
+.activity #column-main ul#activity-stream li.friendship_created, .activity #column-main ul#activity-stream li.new_member {
+	display: none;
+}
 
 .activity-inner > p {
 	margin: 0;
